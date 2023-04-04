@@ -4,10 +4,15 @@
    box-sizing: border-box;
 }
 
+body{
+    background-color: lightgrey;
+}
+
 /* Header */
 .logo{
-    height: 100px;
-    margin-left: 20px;
+    background-color: white;
+    height: 70px;
+    padding-left: 20px;
 }
 
 span{
@@ -17,3 +22,132 @@ span{
     vertical-align: super;
 }
 /* Fine Header */
+/* Main */
+.container{
+    width: 80%;
+    height: 800px;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: white;
+
+    border-radius: 10px;
+}
+
+#button1{
+    background-color: #007fff;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#button2{
+    color: grey;
+    border: 1px solid grey;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+hr{
+    color: grey;
+    margin-top: 15px;
+    border: 2px solid lightgrey;
+}
+
+.list{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 30px; 
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+#freccia{
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+strong{
+    font-size: 25px;
+}
+
+#check{
+    font-size: 20px;
+    vertical-align: middle;
+    color: #60BB3C;
+    border: 1px solid #60BB3C;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.word{
+    font-size: 15px;
+    vertical-align: middle;
+    background-color: #007fff;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#cross{
+    font-size: 20px;
+    vertical-align: middle;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#word1{
+    font-size: 15px;
+    vertical-align: middle;
+    background-color: #991199;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#word2{
+    font-size: 15px;
+    vertical-align: middle;
+    background-color: #6ce05a;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#word3{
+    font-size: 15px;
+    vertical-align: middle;
+    background-color: #ff6b00;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#word4{
+    font-size: 15px;
+    vertical-align: middle;
+    background-color: #ffb8c6;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#word5{
+    font-size: 15px;
+    vertical-align: middle;
+    background-color: #ccff00;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* Fine */
